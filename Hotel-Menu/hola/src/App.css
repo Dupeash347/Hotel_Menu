@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0;}
+
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 12px;
+  background-color: aliceblue;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  padding: 6px 15px;
+  box-shadow: 0 0 1px 0.23px inset rgba(0,0, 0, 0.25);
+  font-size: 22px;
+}
+
+.s-btn{
+  padding: 8px 14px;
+  background-color: rgb(65, 153, 225);
+  color: white;
+  border: none;
+  font-size: 22px;
+}
+
+
+
